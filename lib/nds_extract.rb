@@ -56,6 +56,5 @@ def total_gross(source)
     total_gross += totals[list[index]]
     index += 1
   end
-
   total_gross
 end
