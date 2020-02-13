@@ -53,7 +53,7 @@ def total_gross(source)
   index = 0
 
   while index < list do
-    total_gross += totals[]
+    total_gross += totals[list[index]]
   end
 
   total_gross
