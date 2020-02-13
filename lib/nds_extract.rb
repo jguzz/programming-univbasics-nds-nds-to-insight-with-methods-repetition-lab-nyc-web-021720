@@ -54,6 +54,7 @@ def total_gross(source)
 
   while index < list do
     total_gross += totals[list[index]]
+    index += 1
   end
 
   total_gross
